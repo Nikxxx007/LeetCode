@@ -31,8 +31,8 @@ leetcode/
 1. Ensure you have Node.js installed (recommended version 18+).
 2. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/leetcode-ts.git
-   cd leetcode-ts
+   git clone git@github.com:Nikxxx007/LeetCode.git
+   cd leetcode
    ```
 3. Install dependencies:
    ```sh
