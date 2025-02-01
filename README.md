@@ -64,8 +64,6 @@ npm test
 
 ## Useful Commands
 
-- `npm run build` - Compile TypeScript files
-- `npm run lint` - Run ESLint
 - `npm test` - Run Jest tests
 
 ## License
