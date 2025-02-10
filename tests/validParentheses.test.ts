@@ -1,4 +1,4 @@
-import {isValid} from "../src";
+import { isValid } from "../src";
 
 describe("isValid Parentheses", () => {
   test("should return true for simple valid cases", () => {
@@ -42,6 +42,8 @@ describe("isValid Parentheses", () => {
   });
 
   test("should return false for a long invalid sequence", () => {
-    expect(isValid("(((((({{{{{{[[[[[[[[[[[[]]]]]]]]]]]]]]}}}}}}))))))")).toBe(false);
+    expect(isValid("(((((({{{{{{[[[[[[[[[[[[]]]]]]]]]]]]]]}}}}}}))))))")).toBe(
+      false
+    );
   });
 });

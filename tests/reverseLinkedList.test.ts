@@ -1,25 +1,4 @@
-import { ListNode, reverseList } from "../src";
-
-function arrayToLinkedList(arr: number[]): ListNode | null {
-  if (arr.length === 0) return null;
-  let head = new ListNode(arr[0]);
-  let current = head;
-  for (let i = 1; i < arr.length; i++) {
-    current.next = new ListNode(arr[i]);
-    current = current.next;
-  }
-  return head;
-}
-
-// Converts a linked list back to an array for easy comparison
-function linkedListToArray(head: ListNode | null): number[] {
-  let result: number[] = [];
-  while (head !== null) {
-    result.push(head.val);
-    head = head.next;
-  }
-  return result;
-}
+import { arrayToLinkedList, linkedListToArray, reverseList } from "../src";
 
 describe("reverseList", () => {
   test("should reverse a list with multiple elements", () => {
