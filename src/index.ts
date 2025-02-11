@@ -5,3 +5,4 @@ export { topKFrequent } from "./problems/0347topKFrequentElements";
 export { reverseList, ListNode } from "./problems/0206reverseLinkedList";
 export { arrayToLinkedList, linkedListToArray } from "./utils/utils";
 export { mergeTwoLists } from "./problems/0021mergeTwoSortedLists";
+export { addTwoNumbers } from "./problems/0002addTwoNumbers";
