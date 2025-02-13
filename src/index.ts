@@ -7,3 +7,4 @@ export { arrayToLinkedList, linkedListToArray } from "./utils/utils";
 export { mergeTwoLists } from "./problems/0021mergeTwoSortedLists";
 export { addTwoNumbers } from "./problems/0002addTwoNumbers";
 export { hammingWeight } from "./problems/0191numberOf1Bits";
+export { hasCycle } from "./problems/0141linkedListCycle";
